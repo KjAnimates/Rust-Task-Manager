@@ -1,3 +1,7 @@
+mod task;
+use task::Task;
+
 fn main() {
-    println!("Hello, world!");
+    let t: Task = Task { name: "Task".to_string() };
+    t.display();
 }
